@@ -6,9 +6,9 @@ from pyspark.sql.types import IntegerType, DoubleType, BooleanType, DataType
 
 configs = {"fs.azure.account.auth.type": "OAuth",
 "fs.azure.account.oauth.provider.type": "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider",
-"fs.azure.account.oauth2.client.id": "626d874c-c21f-4368-96d7-794fa10c5a25",
-"fs.azure.account.oauth2.client.secret": 'xcq8Q~1lbiIDJU-4Ncg6B9j05bSEWmXjMqrPwcvu',
-"fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/36b639f4-7a0f-4e93-bbe9-939e461c17b8/oauth2/token"}
+"fs.azure.account.oauth2.client.id": "...",
+"fs.azure.account.oauth2.client.secret": '...',
+"fs.azure.account.oauth2.client.endpoint": "https://login.microsoftonline.com/.../oauth2/token"}
 
 
 dbutils.fs.mount(
